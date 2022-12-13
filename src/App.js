@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import React, { useRef } from 'react';
 import './App.css';
+import AboutMe from './components/AboutMe';
+import Header from './components/Header'
+import Intro from './components/Intro';
+import Projects from './components/Projects';
 
 function App() {
+  const projects = useRef(null)
+  const aboutMe = useRef(null)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <style>{'body {font-family: `Raleway`, sans-serif;}'}</style>
+    <Header projects={projects} aboutMe={aboutMe}/>
+    <Intro></Intro>
+    <AboutMe ref={aboutMe}></AboutMe>
+    <Projects ref={projects}></Projects>
+    </>
   );
 }
 
