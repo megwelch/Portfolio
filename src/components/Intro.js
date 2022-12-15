@@ -7,7 +7,7 @@ const Intro = () => {
 
     const languagesClick = (e) => {
         setText(
-            'HTML  |  CSS  |  Javascript'
+            'HTML  |  CSS  |  Javascript | Python'
         )
     }
 
@@ -19,7 +19,7 @@ const Intro = () => {
 
     const backEndClick = (e) => {
         setText(
-            'Node.js  |  Express  |  MongoDB  |  Mongoose  |  PostgreSQL  |  Django  |  Python'
+            'Node.js  |  Express  |  MongoDB  |  Mongoose  |  PostgreSQL  |  Django'
         )
     }
 
@@ -39,8 +39,8 @@ const Intro = () => {
         <div>
             <section className='developer-tabs'>
                 <button className='skills-btn' onClick={languagesClick}>Languages</button>
-                <button className='skills-btn' onClick={frontEndClick}>Frontend Frameworks</button>
-                <button className='skills-btn' onClick={backEndClick}>Backend Frameworks</button>
+                <button className='skills-btn' onClick={frontEndClick}>Frontend</button>
+                <button className='skills-btn' onClick={backEndClick}>Backend</button>
                 <button className='skills-btn' onClick={toolsClick}>Developer Tools</button>
             </section>
             <section className='btn-content align-items-center'>
