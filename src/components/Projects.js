@@ -44,7 +44,7 @@ const Projects = (props, projects) => {
                     </div>
             </section>
             <section className='project-section project-section-bg2'>
-                <a target='_blank' rel="noreferrer" href='https://github.com/megwelch/Project-4_Front-End'><div className='project-img mobile-display' id='bingeworthy'></div></a>
+                <a target='_blank' rel="noreferrer" href='https://binge-worthy.netlify.app/'><div className='project-img mobile-display' id='bingeworthy'></div></a>
                 <div className='project-description'>
                     <div className='project-title'>Bingeworthy</div>
                     <div>A full-stack application using an external API that allows users to search for and save their favorite tv shows. Users also have the ability to leave reviews on tv
@@ -52,7 +52,7 @@ const Projects = (props, projects) => {
                     </div>
                     <div className='languages'>React.js | MongoDB | Express.js | CSS | Bootstrap</div>
                 </div>
-                <a target='_blank' rel="noreferrer" href='https://github.com/megwelch/Project-4_Front-End'><div className='project-img project-computer-display' id='bingeworthy'></div></a>
+                <a target='_blank' rel="noreferrer" href='https://binge-worthy.netlify.app/'><div className='project-img project-computer-display' id='bingeworthy'></div></a>
             </section>
         </div>
         </>
